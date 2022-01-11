@@ -1,5 +1,5 @@
 chrome.browserAction.onClicked.addListener(function (tab) {
-    // Send a message to the active tab
+    // Active Tab Activator
     chrome.tabs.query({
         active: true,
         currentWindow: true
