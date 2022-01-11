@@ -1,4 +1,4 @@
-console.log('My script is now activated!!!')
+console.log('Schoology Booster is ON')
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         if (request.message === "clicked_browser_action") {
